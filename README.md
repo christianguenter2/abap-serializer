@@ -11,6 +11,13 @@ Serialize any ABAP data to `xstring` and back, preserving full type information.
 - Supports nested tables
 - Interface-based design for easy mocking in unit tests
 
+## Use Cases
+
+- Storing complex typed data in cluster databases (INDX tables)
+- Binary payloads for RFC/HTTP communication
+- Caching in shared memory areas
+- Persisting session state
+
 ## Installation
 
 Copy the three files to your ABAP system using [abapGit](https://abapgit.org/):
