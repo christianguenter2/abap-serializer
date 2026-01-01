@@ -20,11 +20,11 @@ Serialize any ABAP data to `xstring` and back, preserving full type information.
 
 ## Installation
 
-Copy the three files to your ABAP system using [abapGit](https://abapgit.org/):
+Install using [abapGit](https://abapgit.org/):
 
-- `zif_serializer.intf.abap` - Interface
-- `zcl_serializer.clas.abap` - Implementation
-- `zcl_serializer.clas.testclasses.abap` - Unit tests
+1. Open abapGit in your SAP system
+2. Create a new online repository with this URL
+3. Select a target package and pull
 
 ## Usage
 
